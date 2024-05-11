@@ -23,7 +23,17 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Reconstruir BBDD con los datos semilla
+5. Copiar el archivo ```.env.template``` y renombrar la copia a ```.env```
+
+6. Completar las variables de entorno con los valores correctos
+
+7. Ejecutar la aplicación
+
+```
+yarn start:dev
+```
+
+8. Reconstruir BBDD con los datos semilla
 
 ```bash
 http://localhost:3000/api/v2/seed
